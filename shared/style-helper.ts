@@ -1,6 +1,6 @@
 import { css } from '@emotion/react'
 
-const navigationStyles = css`
+const leakedList = css`
   width: 90%;
   max-width: var(--page-width);
   margin: 0 auto;
@@ -19,4 +19,4 @@ const navigationStyles = css`
   }
 `
 
-export { navigationStyles }
+export { leakedList }
