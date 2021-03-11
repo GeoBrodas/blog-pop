@@ -4,10 +4,11 @@ import { FaDev as Dev } from 'react-icons/fa'
 import { footerStyle } from './style'
 import { leakedList } from '@shared/style-helper'
 import { metadata } from 'config'
+import Footprint from '@components/footprint'
 
 const Footer = () => (
   <footer css={footerStyle}>
-    <ul css={leakedList} style={{ listStyleType: 'none' }}>
+    <ul css={leakedList} style={{ listStyleType: 'none', fontSize: '1.3rem' }}>
       <li>
         <a href={metadata.author.githubURL} target="_blank">
           <Github />
@@ -24,6 +25,7 @@ const Footer = () => (
         </a>
       </li>
     </ul>
+    <Footprint />
   </footer>
 )
 
